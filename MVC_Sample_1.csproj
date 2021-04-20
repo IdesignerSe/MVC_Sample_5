@@ -5,6 +5,7 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <PackageReference Include="microsoft.aspnetCore.Mvc.Razor.RuntimeCompilation" Version="5.0.5" />
     <PackageReference Include="microsoft.EntityFrameworkCore" Version="5.0.4" />
     <PackageReference Include="microsoft.EntityFrameworkCore.SqlServer" Version="5.0.4" />
     <PackageReference Include="microsoft.EntityFrameworkCore.Tools" Version="5.0.4">
