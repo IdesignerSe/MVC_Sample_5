@@ -19,6 +19,8 @@ namespace MVC_Sample_1.Controllers
             Weather weather = await GetWeather(town);
             ViewData["Temperature"] = weather.Current.TempC;
             ViewData["Town"] = weather.Location.Name;
+            ViewData["Image"] = weather.Current.Condition.Icon;
+
             return PartialView("_Weather");
         }
 
