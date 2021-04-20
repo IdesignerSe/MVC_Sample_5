@@ -1,0 +1,7 @@
+Links used:
+
+https://jsonutils.com/
+to beutify your code
+
+and api weathr server
+https://www.weatherapi.com/my/fields.asp
