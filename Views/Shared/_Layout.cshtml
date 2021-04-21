@@ -34,8 +34,8 @@
                             @*@("Weather", "Weather")*@
                             @*@Html.Action("Weather", "Weather")*@
                             @*<a class="nav-link">
-                The temperature is @ViewData["Temperature"] degrees Celsius in @ViewData["Town"] right now.
-            </a>*@
+                                    The temperature is @ViewData["Temperature"] degrees Celsius in @ViewData["Town"] right now.
+                                </a>*@
                         </li>
                     </ul>
                 </div>
@@ -46,7 +46,6 @@
                                 Search temperaturer for:
                                 <input type="text" name="town" />
                                 <input type="submit" name="Search" />
-
                             </thead>
                         </table>
                     </p>
@@ -68,7 +67,9 @@
     <script src="~/lib/jquery/dist/jquery.min.js"></script>
     <script src="~/lib/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
     <script src="~/js/site.js" asp-append-version="true"></script>
-    <script src="~/lib/jquery-unobstrusive-ajax/jquery.unobtrusive-ajax.min.js"></script>
+    <script src="~/lib/jquery-unobtrusive-ajax/jquery.unobtrusive-ajax.min.js"></script>
+
+
 
     @await RenderSectionAsync("Scripts", required: false)
 </body>
